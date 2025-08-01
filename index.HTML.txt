@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Happy Girlfriend's Day</title>
+<style>
+  body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fef6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  .container {
+    max-width: 600px;
+    background: #fff0f5;
+    border-radius: 12px;
+    padding: 25px 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  .message {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    white-space: pre-line;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="message">
+To my Love  
+Meeting u was the best thing that has happened to my life, loving u was the best decision and caring for u will be the trend✨💞  
+Do u love me? 😂u love asking tht and ofc baby girl, princess💞i love u 😌✨  
+I dont show my love for u that much am sorry but i try my best to make u feel loved. The time we have been together and the times we were not just showed how much u mean to my life.  
+All the disagreements, all the quarrels and we still here 👀 thats incredible 😌isnt it? i love u✨  
+Dont worry about us 😌 am here and i will always be there for u ✨always😂👀👀👀 hata in my grave 😇 ill hunt u😂  
+My WIFE 🙃❣️My mama, my girl, princess💋  
+i love u and adore u ✨and the gift i sent is not that much but am lucky to have u as my girl💞  
+  
+...........................................your man  
+..........Achar💋  
+  
+HAPPY GF'S DAY BABE💞💋
+  </div>
+</div>
+
+<audio id="bgMusic" src="https://cdn.pixabay.com/download/audio/2022/03/28/audio_c55a4656d6.mp3?filename=calm-piano-6567.mp3" autoplay loop></audio>
+
+<script>
+  // Try to autoplay audio (mobile browsers sometimes block it)
+  const audio = document.getElementById('bgMusic');
+  audio.volume = 0.15; // low volume background music
+  document.body.addEventListener('click', () => {
+    if (audio.paused) {
+      audio.play();
+    }
+  });
+</script>
+
+</body>
+</html>
